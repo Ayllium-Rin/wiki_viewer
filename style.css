@@ -1,0 +1,116 @@
+body {    
+    background: #020202;
+    border: 10px solid #ededcc;
+    color: #ededcc;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    margin: 10px 20px;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+footer {
+    color: #ededcc;
+    font-size: 14px;
+    margin 10px;    
+    padding 10px;    
+    text-align: right;
+    
+}
+
+footer a {
+    color: #ededcc;
+    margin 10px;
+    padding 0;    
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #555;
+}
+
+button {
+    background: #ededcc;
+    border-radius: 5px;
+    color: #020202;
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    margin: 5px;
+    padding 0;
+}
+
+button:hover {
+    background: #020202;
+    color: #ededcc;
+}
+
+#title {
+    border: 5px solid #ededcc;
+    display: inline-block;
+    font-size: 50px;
+    margin: 20px 10px 10px 20px;
+    padding: 10px;
+}
+
+#title a {
+    color: #ededcc;
+    text-decoration: none;
+}
+
+#instruct {
+    margin: 5px 5px 5px 10px;
+    padding: 10px;
+}
+
+#displayResults {
+    background: #020202;
+    color: #ededcc;
+    font-size: 18px;
+    min-height: 300px;
+    text-decoration: none;    
+    width: 100%;
+}
+
+.queryTitle {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.link {    
+    background: #ededcc;
+    color: #020202;
+    display: inline-block;
+    margin: 5px 5px 5px 20px;
+    padding: 0;
+    text-decoration: none;
+}
+
+.description {
+    background: #ededcc;
+    color: #020202;
+    display: block;
+    margin: 5px 5px 5px 20px;
+    padding: 0;
+}
+
+.inputArea {
+    color: #020202;
+    border: 2px solid #ededcc;
+    display: inline-block;
+    font-size: 25px;
+    margin: 5px 5px 5px 20px;
+    padding: 10px;    
+    width: auto;
+}
+
+/* To ensure that data and page displays correctly on small screens */
+@media only screen and (max-width: 576px) {
+    .inputArea {
+        font-size: 16;
+        max-width: 150px;
+    }
+    
+    #input-txt {
+        max-width: 135px;
+    }
+}
